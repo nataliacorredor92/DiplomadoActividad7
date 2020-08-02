@@ -1,0 +1,42 @@
+#titulo_tarjeta1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#titulo_tarjeta2{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#titulo_tarjeta3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#titulo_tarjeta4{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.parrafo_card{
+    text-align: justify;
+}
+
+.img_enfermedades{
+    height: 250px;
+    width: 360px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+@media(max-width:320px){
+    .img_enfermedades{
+        height: 140px;
+        width: 250px;
+        display: block;
+        margin: auto;       
+    }
+}
+
+
